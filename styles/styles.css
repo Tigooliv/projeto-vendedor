@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2? family=Krona+One&family=Montserrat:ital@1&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+
+    background-color: #000;
+    color: aliceblue;
+}
+
+
+.cabecalho__menu__link {
+    text-decoration: none;
+    background: black;
+     color: #fff;
+     font-size: 24px;
+     font-weight: 700;
+     display: flex;
+     justify-content: space-around;
+    
+ }
+
+
+
+.cabecalho__menu {
+    justify-content:space-between;
+    padding: 1,5em 0 0 1,5em;
+    gap: 20px;
+
+}
+
+
+
+.apresentacao {
+    padding: 0.5em;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+.apresentacao__foto__vendedor {
+    display: flex;
+    width: 40vw;
+    margin-left: 10em ;
+
+    
+}
+
+.apresentacao__vendedor {
+    padding: 1% 0 0 30%;
+}
+
+.apresentacao__vendedor__titulo {
+    padding: 1em 0 ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.apresentacao__link {
+    padding: 28.5px 0;
+    font-family: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__link__navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 21.5px 0;
+    border: 2px solid #006082;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: -1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat' ,sans-serif;
+    
+}
+.apresentacao__icon {
+    width: 32px; 
+       
+}
+
+.rodape__container {
+    display: flex;
+    padding: 0.1;
+    background-color: #006082;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.cartao__assistencia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlidesInverno</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/inverno.css">    
+</head>
+<header >
+    <nav class="inicio">
+        <a href="index.html" >inicio</a>
+    </nav>
+</header>
+
+<body>
+<section class="carrossel">
+    <h2 class="carrossel__titulo"> confira nossas promoções</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="assets/Foto de 616722 (2).jpg" alt="promaçao 2"></div>
+            <div class="swiper-slide"><img src="assets/Foto de 616722 (3).jpg" alt="promaçao 3"></div>
+            <div class="swiper-slide"><img src="assets/aquecedor.jpg" alt="promaçao 4"></div>
+            <div class="swiper-slide"><img src="assets/aquecedorventila.jpg" alt="promaçao 5"></div>
+            <div class="swiper-slide"><img src="assets/ducha ss.jpg" alt="promaçao 6"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 30,
+        slidesPerView: 3,
+
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+
+});
+</script>
+</body>
+
+</html>

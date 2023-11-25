@@ -1,0 +1,48 @@
+
+header{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    padding: auto;
+    background-color: rgb(91, 114, 68);
+}
+.container {
+    width: 100wh;
+    height: 50%;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.localizacao__container{
+    width: 100wh;
+    height: 50%;
+
+}
+
+
+.cartao__assistencia {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 150px;
+    
+   
+}
+
+.cartao__assistencia:hover {
+    display: flex;
+    justify-content: space-between;
+    transform: scale(1.1);
+}
+
+
+    
+
+
+
